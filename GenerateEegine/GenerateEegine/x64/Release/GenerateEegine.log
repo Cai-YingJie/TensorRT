@@ -1,0 +1,31 @@
+﻿生成启动时间为 2021/8/17 14:40:45。
+     1>项目“C:\Users\Administrator\Desktop\vs3013\BrokenClassify\GenerateEegine\GenerateEegine\GenerateEegine\GenerateEegine.vcxproj”在节点 2 上(Rebuild 个目标)。
+     1>ClCompile:
+         D:\VS2015\VC\bin\x86_amd64\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Oi /GL /D NDEBUG /D _CONSOLE /D _CRT_SECURE_NO_WARNINGS /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"x64\Release\\" /Fd"x64\Release\vc140.pdb" /Gd /TP /errorReport:prompt GenerateEegine.cpp stdafx.cpp
+         GenerateEegine.cpp
+     1>C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.2\include\NvInfer.h(3558): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.2\include\cuda_runtime_api.h(9349): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>GenerateEegine.cpp(89): warning C4244: “初始化”: 从“int64_t”转换到“int”，可能丢失数据
+     1>GenerateEegine.cpp(121): warning C4305: “参数”: 从“double”到“float”截断
+     1>GenerateEegine.cpp(137): warning C4305: “参数”: 从“double”到“float”截断
+     1>GenerateEegine.cpp(154): warning C4305: “参数”: 从“double”到“float”截断
+     1>GenerateEegine.cpp(170): warning C4305: “参数”: 从“double”到“float”截断
+     1>GenerateEegine.cpp(190): warning C4305: “参数”: 从“double”到“float”截断
+     1>GenerateEegine.cpp(199): warning C4305: “参数”: 从“double”到“float”截断
+     1>GenerateEegine.cpp(216): warning C4305: “参数”: 从“double”到“float”截断
+     1>GenerateEegine.cpp(233): warning C4305: “参数”: 从“double”到“float”截断
+     1>GenerateEegine.cpp(288): warning C4305: “参数”: 从“double”到“float”截断
+     1>GenerateEegine.cpp(291): warning C4305: “参数”: 从“double”到“float”截断
+         stdafx.cpp
+       Link:
+         D:\VS2015\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Administrator\Desktop\vs3013\BrokenClassify\GenerateEegine\GenerateEegine\x64\Release\GenerateEegine.exe" /INCREMENTAL:NO /NOLOGO /LIBPATH:..\x64\Release nvinfer.lib cudart_static.lib opencv_core2413.lib opencv_highgui2413.lib opencv_imgproc2413.lib opencv_legacy2413.lib opencv_ml2413.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /Debug /PDB:"C:\Users\Administrator\Desktop\vs3013\BrokenClassify\GenerateEegine\GenerateEegine\x64\Release\GenerateEegine.pdb" /SUBSYSTEM:CONSOLE /OPT:REF /OPT:ICF /LTCG:incremental /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Administrator\Desktop\vs3013\BrokenClassify\GenerateEegine\GenerateEegine\x64\Release\GenerateEegine.lib" /MACHINE:X64 x64\Release\GenerateEegine.obj
+         x64\Release\stdafx.obj
+         正在生成代码
+         All 433 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+         已完成代码的生成
+         GenerateEegine.vcxproj -> C:\Users\Administrator\Desktop\vs3013\BrokenClassify\GenerateEegine\GenerateEegine\x64\Release\GenerateEegine.exe
+     1>已完成生成项目“C:\Users\Administrator\Desktop\vs3013\BrokenClassify\GenerateEegine\GenerateEegine\GenerateEegine\GenerateEegine.vcxproj”(Rebuild 个目标)的操作。
+
+已成功生成。
+
+已用时间 00:00:02.74
